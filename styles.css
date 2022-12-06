@@ -1,0 +1,70 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 35%;
+	height: 50px;
+	margin: 30%;
+	margin-top: 7%;
+	border: 100px;
+}
+
+.postcard * {
+	font-style: italic;
+}
+
+border {
+	background-color: grey;
+	color: grey;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+
+.content {
+	display: flex;
+	background-color: white;
+}
+
+.title {
+	margin-left: 15px;
+}
+
+.firstContent {
+	margin-left: 15px;
+}
+
+.info {
+	margin-left: 15px;
+}
+.logo :first-child {
+	font-size: 30px;
+	margin: 20px;
+}
+
+.info {
+	margin: 10px;
+}
+
+.send {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+button {
+	background-color: grey;
+	margin-bottom: 25px;
+}
+
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: dotted gray;
+}
